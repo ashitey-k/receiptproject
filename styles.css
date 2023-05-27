@@ -12,7 +12,8 @@
 .card{
     background-color: white;
     padding: 30px;
-   
+    height:100px;
+    margin:20px;
     width: auto;
 }
 td{
