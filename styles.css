@@ -7,7 +7,7 @@
   }
 body{
     background: linear-gradient(to left, #87c7df,#648896);
-    position:fixed;
+    width: auto;
 }
   header{
     height: 80px;
