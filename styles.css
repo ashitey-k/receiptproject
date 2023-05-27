@@ -36,11 +36,12 @@ body{
     height: 200vh;
     display: flex;
     flex-wrap: wrap;
-    width: auto;
+    
     justify-content: space-around;
     position: relative;
 }
 .card1{
+    flex:1 0 200px;
     width:auto;
     height: 150vh;
     background-image: url(IMG_0532.JPG);
