@@ -7,7 +7,6 @@
   }
 body{
     background: linear-gradient(to left, #87c7df,#648896);
-    width: auto;
 }
   header{
     height: 80px;
@@ -36,15 +35,19 @@ body{
     height: 200vh;
     display: flex;
     flex-wrap: wrap;
-    
     justify-content: space-around;
     position: relative;
 }
+.head{
+  display: flex;
+}
+.head h1{
+  padding-top: 15px;
+}
 .card1{
-    flex:1 0 200px;
-    width:auto;
     height: 150vh;
-    background-image: url(IMG_0532.JPG);
+    width: auto;
+    background-color: white;
     box-shadow: 0 20px 20px black,0px 0px 50px black;
     border-radius: 30px;
     padding: 5rem 5rem;
@@ -56,9 +59,10 @@ body{
 }
 .card2{
     height: 120vh;
-    background-image: url(IMG_0532.JPG);
     box-shadow: 0 20px 20px black,0px 0px 50px black;
     border-radius: 30px;
+    background-color: white;
+
     padding: 5rem 5rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -71,7 +75,7 @@ body{
     justify-content:space-between;
 }
 td{
-    padding: 5px;
+    padding: 10px;
 }
 button{
     border-radius: 5px;
